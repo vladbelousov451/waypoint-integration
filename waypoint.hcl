@@ -47,3 +47,11 @@ app "kubernetes-nodejs-web" {
     }
   }
 }
+runner {
+  enabled = true
+
+  data_source "git" {
+    url  = "https://github.com/vladbelousov451/waypoint-integration.git"
+    path = "docker/nodejs"
+  }
+}
