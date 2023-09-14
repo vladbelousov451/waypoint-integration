@@ -11,7 +11,7 @@ variable "registry_password" {
   env = ["REGISTRY_PASSWORD"]
 }
 
-project = "kubernetes-nodejs"
+project = "github-integration"
 app "kubernetes-nodejs-web" {
   labels = {
     "service" = "kubernetes-nodejs-web",
